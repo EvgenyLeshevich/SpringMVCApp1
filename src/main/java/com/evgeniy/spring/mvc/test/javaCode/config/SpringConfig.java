@@ -1,3 +1,4 @@
+/*
 package com.evgeniy.spring.mvc.test.javaCode.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +31,7 @@ public class SpringConfig implements WebMvcConfigurer { // Реализуем и
     public SpringResourceTemplateResolver templateResolver() {
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
-        templateResolver.setPrefix("/WEB-INF/views/"); // Папка в которой буду лежать наши представления
+        templateResolver.setPrefix("/WEB-INF/views"); // Папка в которой буду лежать наши представления
         templateResolver.setSuffix(".html"); // Расширение представлений
         return templateResolver;
     }
@@ -51,3 +52,4 @@ public class SpringConfig implements WebMvcConfigurer { // Реализуем и
         registry.viewResolver(resolver);
     }
 }
+*/
